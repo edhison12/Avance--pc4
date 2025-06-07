@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Contacto - Concesionario de Autos</title>
 
-  <!-- Tailwind CDN -->
+ 
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
@@ -20,7 +20,7 @@
       <div class="flex items-center gap-4">
         <img src="https://us.123rf.com/450wm/themoderncanvas/themoderncanvas1901/themoderncanvas190100012/118845971-icono-de-super-coche-de-concesionario-de-estilo-autom%C3%A1tico-con-silueta-de-icono-de-veh%C3%ADculo-deportiv.jpg" alt="Logo Concesionario" class="w-16 rounded" />
         <button id="toggleDark" class="bg-gray-300 dark:bg-gray-800 text-black dark:text-white px-3 py-1 rounded hover:bg-gray-400 dark:hover:bg-gray-600 transition">
-          Modo Oscuro
+  
         </button>
       </div>
       <ul class="flex gap-4 text-lg font-semibold flex-wrap">
@@ -90,7 +90,7 @@
     const toggleBtn = document.getElementById('toggleDark');
     const htmlEl = document.getElementById('htmlRoot');
 
-    // Aplica el tema guardado al cargar la página
+    
     if (localStorage.theme === 'dark') {
       htmlEl.classList.add('dark');
       toggleBtn.textContent = 'Modo Claro';
