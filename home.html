@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Inicio - Concesionario de Autos</title>
   
-  <!-- Tailwind CDN -->
+
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
@@ -43,7 +43,7 @@
     <section class="featured-cars mb-16">
       <h2 class="text-3xl font-semibold mb-8 text-center">Vehículos Destacados</h2>
       <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-        <!-- Tarjeta 1 -->
+       
         <div class="car-card bg-gray-100 dark:bg-gray-800 rounded shadow p-4 flex flex-col h-[550px] transition-transform hover:scale-105 duration-300">
           <img src="https://acnews.blob.core.windows.net/imgnews/large/NAZ_74f3a78d5b18495c9d68110900875069.jpg"
                alt="Carro Destacado 1"
@@ -55,7 +55,7 @@
           </span>
         </div>
 
-        <!-- Tarjeta 2 -->
+       
         <div class="car-card bg-gray-100 dark:bg-gray-800 rounded shadow p-4 flex flex-col h-[550px] transition-transform hover:scale-105 duration-300">
           <img src="https://lacddam.lexusasia.com/Peru/Cars/lx/lx-home/exterior/01_1920x800.jpg"
                alt="Carro Destacado 2"
@@ -65,7 +65,7 @@
           <span class="font-bold text-lg bg-green-200 dark:bg-green-600 text-center rounded px-4 py-2">$38,000</span>
         </div>
 
-        <!-- Tarjeta 3 -->
+     
         <div class="car-card bg-gray-100 dark:bg-gray-800 rounded shadow p-4 flex flex-col h-[550px] transition-transform hover:scale-105 duration-300">
           <img src="https://www.suzuki.com.pe/media/bpaamq2n/foto_0000000320220526180806_disen_o-exterior.jpg"
                alt="Carro Destacado 3"
@@ -91,9 +91,9 @@
       </div>
     </section>
 
-    <!-- Contenedor React para cuestionario -->
+   
     <section id="reactQuizRoot" class="mb-16 bg-gray-100 dark:bg-gray-800 p-6 rounded shadow max-w-3xl mx-auto">
-      <!-- React montará aquí -->
+     
     </section>
 
   </main>
@@ -102,12 +102,12 @@
     <p>&copy; 2025 Concesionario de Autos. Todos los derechos reservados.</p>
   </footer>
 
-  <!-- React, ReactDOM, Babel CDN -->
+  
   <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
   <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
   <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 
-  <!-- Script React con Babel -->
+
   <script type="text/babel">
 
     const { useState } = React;
@@ -208,7 +208,7 @@
   </script>
 
   <script>
-    // Toggle modo oscuro
+
     const btn = document.getElementById('toggleDark');
     const htmlRoot = document.getElementById('htmlRoot');
     btn.addEventListener('click', () => {
